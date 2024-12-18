@@ -44,6 +44,7 @@ html {
 .hero_area {
   height: 98vh;
   position: relative;
+  margin-top: 10%;
 }
 
 .hero_area::before {
@@ -147,7 +148,7 @@ a:focus {
   font-size: 20px;
   font-weight: 700;
   color: #434242;
-  margin-top: 5px;
+  
 }
 
 .custom_nav-container {
