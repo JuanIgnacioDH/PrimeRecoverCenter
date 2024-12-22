@@ -44,7 +44,6 @@ html {
 .hero_area {
   height: 98vh;
   position: relative;
-  margin-top: 10%;
 }
 
 .hero_area::before {
@@ -52,7 +51,7 @@ html {
   position: absolute;
   width: 100%;
   height: 15px;
-  background-color: #023b48;
+  background-color: #4d4d4d;
 }
 
 .sub_page .hero_area {
@@ -172,7 +171,7 @@ a:focus {
   padding: 6% 0;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 4%;
+  /*margin-top: 4%;*/
 }
 
 .slider_section .row {
@@ -248,11 +247,12 @@ a:focus {
   background-color: #010106;
 }
 
-/*.about_section {
-  background-image: url(../images/about-bg.png);
-  background-size: cover;
+.about_section {
+  /*background-image: url(../images/about-bg.png);
+  background-size: cover;*/
+  margin-top: 2%;
 }
-  */
+  
 
 .about_section .row {
   -webkit-box-align: baseline;
